@@ -1,0 +1,36 @@
+.navbar {
+    display: center;
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    margin: 2px;
+}
+.box1{
+    display: flex;
+    display: inline-block;
+    margin: 20px;
+    
+}
+.box2{display: flex;
+    display: inline-block;
+    margin: 20px;
+}
+.box3{
+    display: flex;
+    display: inline-block;
+    margin: 20px;
+}
+.box4{
+    display: flex;
+display: inline-block;
+margin: 20px;
+}
+.mini-layout{
+    display: flex;
+    border: solid 3px;
+    display: inline-block;
+    size: 100%;
+}
+ul{
+    list-style: none;
+}
