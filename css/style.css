@@ -1,9 +1,8 @@
 .navbar {
-    display: center;
     display: flex;
     background-color: grey;
-    text-align: center;
-    margin: 2px;
+    justify-content: center;
+    
 }
 .box1{
     display: flex;
@@ -22,15 +21,25 @@
 }
 .box4{
     display: flex;
-display: inline-block;
-margin: 20px;
+    display: inline-block;
+    margin: 20px;
 }
 .mini-layout{
     display: flex;
     border: solid 3px;
     display: inline-block;
-    size: 100%;
+    size: auto;
+
 }
 ul{
     list-style: none;
+}
+.icons{
+    margin: 2px;
+}
+.container{
+    display: flex;
+}
+.icons .navbar{
+    flex: 1;
 }
